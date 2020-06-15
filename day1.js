@@ -1,6 +1,8 @@
 function addBorder(array) {
-  //  write code here.
-  return 'Hello';
+  var stars = "*****";
+  array.push(stars);
+  array.unshift(stars);
+  return array;
 }
 
 
