@@ -1,7 +1,8 @@
 function addBorder(array) {
-  var stars = "*****";
-  array.push(stars);
-  array.unshift(stars);
+  var star = "*"
+  array.push(star)
+  array.unshift(star)
+  var array = array.concat(star)
   return array;
 }
 
