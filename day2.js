@@ -1,7 +1,12 @@
-function addTwoDigits(29)  {
+
+
+function addTwoDigits(num)  {
   //  write code here.
-  num.split('')
-  return num
+  array = []
+  sNum = num.toString();
+
+  return sNum
 }
 
 
+return addTwoDigits(29)
