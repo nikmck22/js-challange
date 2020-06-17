@@ -2,10 +2,9 @@
 
 function addTwoDigits(num)  {
   //  write code here.
-  array = []
-  sNum = num.toString();
+  const nums = num.toString().split('');
 
-  return sNum
+  return parseInt(nums[0]) + parseInt(nums[1]);
 }
 
 
